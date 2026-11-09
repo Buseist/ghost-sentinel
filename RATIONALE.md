@@ -20,7 +20,7 @@ Shneiderman (1983) argues that direct-manipulation interfaces should keep releva
 
 I tested the game with someone who had not played it before. They understood the controls and played comfortably without needing an explanation. This showed me that the short instruction and keyboard/on-screen controls were clear enough for a first-time player. Since the tester did not struggle, I kept the basic control scheme unchanged.
 
-**Live link:** [Add your published GitHub Pages URL here]
+**Live link:**  https://buseist.github.io/ghost-sentinel/
 
 ## References
 

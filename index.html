@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ghost Sentinel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Ghost Sentinel</h1>
+  <p class="how">Move with the arrow keys, WASD or the buttons. Collect stars. Your ghost replays your path a few seconds late.</p>
+  <div id="hud" aria-live="polite">
+    <span id="score">Stars: 0</span>
+    <span id="delay">Ghost delay: 0s</span>
+    <span id="lives">Lives: 0</span>
+  </div>
+  <canvas id="c" width="480" height="480" aria-label="Game arena"></canvas>
+  <div id="msg" role="status"></div>
+  <div id="pad">
+    <span></span><button data-k="up" aria-label="Move up">▲</button><span></span>
+    <button data-k="left" aria-label="Move left">◀</button>
+    <button data-k="down" aria-label="Move down">▼</button>
+    <button data-k="right" aria-label="Move right">▶</button>
+  </div>
+  <button id="restart">Restart (Enter)</button>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
